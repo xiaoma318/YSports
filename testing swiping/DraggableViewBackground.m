@@ -7,6 +7,8 @@
 //
 
 #import "DraggableViewBackground.h"
+#import "Event.h"
+#import "Utils.h"
 
 @implementation DraggableViewBackground{
     NSInteger cardsLoadedIndex; //%%% the index of the card you have loaded into the loadedCards array last
@@ -32,7 +34,14 @@ static const float CARD_WIDTH = 290; //%%% width of the draggable card
     if (self) {
         [super layoutSubviews];
         [self setupView];
-        exampleCardLabels = [[NSArray alloc]initWithObjects:@"first",@"second",@"third",@"fourth",@"last", nil]; //%%% placeholder for card-specific information
+        NSMutableArray *typeArray = [[NSMutableArray alloc] init];
+        for (Event *event in self.events) {
+            [typeArray addObject:[Utils eventTypeForId:event.eventType]];
+        }
+        NSLog(typeArray);
+//        exampleCardLabels = [[NSArray alloc]initWithObjects:@"Bascketball1",@"Soccer",@"Papa",@"fourth",@"last", nil];
+        exampleCardLabels = [[NSArray alloc] initWithArray:typeArray];
+        //%%% placeholder for card-specific information
         loadedCards = [[NSMutableArray alloc] init];
         allCards = [[NSMutableArray alloc] init];
         cardsLoadedIndex = 0;
@@ -70,6 +79,7 @@ static const float CARD_WIDTH = 290; //%%% width of the draggable card
 {
     DraggableView *draggableView = [[DraggableView alloc]initWithFrame:CGRectMake((self.frame.size.width - CARD_WIDTH)/2, (self.frame.size.height - CARD_HEIGHT)/2, CARD_WIDTH, CARD_HEIGHT)];
     draggableView.information.text = [exampleCardLabels objectAtIndex:index]; //%%% placeholder for card-specific information
+    draggableView.information2.text = @"hahahha";
     draggableView.delegate = self;
     return draggableView;
 }

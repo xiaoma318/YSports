@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C94DE8E1A15A44B00942C0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C94DE821A15A44B00942C0D /* Main.storyboard */; };
+		0C94DE8F1A15A44B00942C0D /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C94DE851A15A44B00942C0D /* Client.m */; };
+		0C94DE901A15A44B00942C0D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C94DE871A15A44B00942C0D /* InfoPlist.strings */; };
+		0C94DE911A15A44B00942C0D /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C94DE8A1A15A44B00942C0D /* Event.m */; };
+		0C94DE931A15A44B00942C0D /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C94DE8D1A15A44B00942C0D /* Utils.m */; };
+		0C94DEA31A15A55000942C0D /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C94DEA11A15A55000942C0D /* CalendarViewController.m */; };
+		0C94DEA41A15A55000942C0D /* CalendarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C94DEA21A15A55000942C0D /* CalendarViewController.xib */; };
+		0C94DEA91A15A5CD00942C0D /* CalendarTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C94DEA71A15A5CD00942C0D /* CalendarTableViewCell.m */; };
+		0C94DEAA1A15A5CD00942C0D /* CalendarTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C94DEA81A15A5CD00942C0D /* CalendarTableViewCell.xib */; };
+		0C94DEAE1A15A65500942C0D /* CreateEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C94DEAC1A15A65500942C0D /* CreateEventViewController.m */; };
+		0C94DEAF1A15A65500942C0D /* CreateEventViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C94DEAD1A15A65500942C0D /* CreateEventViewController.xib */; };
+		8A545524D4F395553821526E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C724D715AA5768E0EDA4F205 /* libPods.a */; };
 		99B7AE99192D50D500C1B49C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B7AE98192D50D500C1B49C /* Foundation.framework */; };
 		99B7AE9B192D50D500C1B49C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B7AE9A192D50D500C1B49C /* CoreGraphics.framework */; };
 		99B7AE9D192D50D500C1B49C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B7AE9C192D50D500C1B49C /* UIKit.framework */; };
@@ -37,6 +49,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C94DE831A15A44B00942C0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		0C94DE841A15A44B00942C0D /* Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Client.h; path = "testing swiping/Client.h"; sourceTree = "<group>"; };
+		0C94DE851A15A44B00942C0D /* Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Client.m; path = "testing swiping/Client.m"; sourceTree = "<group>"; };
+		0C94DE881A15A44B00942C0D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		0C94DE891A15A44B00942C0D /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Event.h; path = "testing swiping/Event.h"; sourceTree = "<group>"; };
+		0C94DE8A1A15A44B00942C0D /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Event.m; path = "testing swiping/Event.m"; sourceTree = "<group>"; };
+		0C94DE8C1A15A44B00942C0D /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utils.h; path = "testing swiping/Utils.h"; sourceTree = "<group>"; };
+		0C94DE8D1A15A44B00942C0D /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Utils.m; path = "testing swiping/Utils.m"; sourceTree = "<group>"; };
+		0C94DEA01A15A55000942C0D /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalendarViewController.h; path = "testing swiping/CalendarViewController.h"; sourceTree = "<group>"; };
+		0C94DEA11A15A55000942C0D /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalendarViewController.m; path = "testing swiping/CalendarViewController.m"; sourceTree = "<group>"; };
+		0C94DEA21A15A55000942C0D /* CalendarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CalendarViewController.xib; path = "testing swiping/CalendarViewController.xib"; sourceTree = "<group>"; };
+		0C94DEA61A15A5CD00942C0D /* CalendarTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalendarTableViewCell.h; path = "testing swiping/CalendarTableViewCell.h"; sourceTree = "<group>"; };
+		0C94DEA71A15A5CD00942C0D /* CalendarTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalendarTableViewCell.m; path = "testing swiping/CalendarTableViewCell.m"; sourceTree = "<group>"; };
+		0C94DEA81A15A5CD00942C0D /* CalendarTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CalendarTableViewCell.xib; path = "testing swiping/CalendarTableViewCell.xib"; sourceTree = "<group>"; };
+		0C94DEAB1A15A65500942C0D /* CreateEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreateEventViewController.h; path = "testing swiping/CreateEventViewController.h"; sourceTree = "<group>"; };
+		0C94DEAC1A15A65500942C0D /* CreateEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreateEventViewController.m; path = "testing swiping/CreateEventViewController.m"; sourceTree = "<group>"; };
+		0C94DEAD1A15A65500942C0D /* CreateEventViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CreateEventViewController.xib; path = "testing swiping/CreateEventViewController.xib"; sourceTree = "<group>"; };
+		551CAC79F18F1509BCE840AF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		99B7AE95192D50D500C1B49C /* testing swiping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "testing swiping.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99B7AE98192D50D500C1B49C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		99B7AE9A192D50D500C1B49C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,6 +92,8 @@
 		99B7AED1192E914500C1B49C /* OverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayView.m; sourceTree = "<group>"; };
 		99FDDE7719A992F200371454 /* DraggableViewBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableViewBackground.h; sourceTree = "<group>"; };
 		99FDDE7819A992F200371454 /* DraggableViewBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggableViewBackground.m; sourceTree = "<group>"; };
+		C724D715AA5768E0EDA4F205 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C5195DD582021A9C2AEAF1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +104,7 @@
 				99B7AE9B192D50D500C1B49C /* CoreGraphics.framework in Frameworks */,
 				99B7AE9D192D50D500C1B49C /* UIKit.framework in Frameworks */,
 				99B7AE99192D50D500C1B49C /* Foundation.framework in Frameworks */,
+				8A545524D4F395553821526E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,13 +121,82 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C94DE811A15A44B00942C0D /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				0C94DE821A15A44B00942C0D /* Main.storyboard */,
+			);
+			name = Base.lproj;
+			path = "testing swiping/Base.lproj";
+			sourceTree = "<group>";
+		};
+		0C94DE861A15A44B00942C0D /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				0C94DE871A15A44B00942C0D /* InfoPlist.strings */,
+			);
+			name = en.lproj;
+			path = "testing swiping/en.lproj";
+			sourceTree = "<group>";
+		};
+		0C94DE941A15A45000942C0D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0C94DE841A15A44B00942C0D /* Client.h */,
+				0C94DE851A15A44B00942C0D /* Client.m */,
+				0C94DE891A15A44B00942C0D /* Event.h */,
+				0C94DE8A1A15A44B00942C0D /* Event.m */,
+				0C94DE8C1A15A44B00942C0D /* Utils.h */,
+				0C94DE8D1A15A44B00942C0D /* Utils.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0C94DE951A15A4C900942C0D /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0C94DEA01A15A55000942C0D /* CalendarViewController.h */,
+				0C94DEA11A15A55000942C0D /* CalendarViewController.m */,
+				0C94DEA21A15A55000942C0D /* CalendarViewController.xib */,
+				0C94DEAB1A15A65500942C0D /* CreateEventViewController.h */,
+				0C94DEAC1A15A65500942C0D /* CreateEventViewController.m */,
+				0C94DEAD1A15A65500942C0D /* CreateEventViewController.xib */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		0C94DEA51A15A5AD00942C0D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0C94DEA61A15A5CD00942C0D /* CalendarTableViewCell.h */,
+				0C94DEA71A15A5CD00942C0D /* CalendarTableViewCell.m */,
+				0C94DEA81A15A5CD00942C0D /* CalendarTableViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6FD6B26367EE7F309020D239 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1C5195DD582021A9C2AEAF1 /* Pods.debug.xcconfig */,
+				551CAC79F18F1509BCE840AF /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		99B7AE8C192D50D500C1B49C = {
 			isa = PBXGroup;
 			children = (
+				0C94DEA51A15A5AD00942C0D /* View */,
+				0C94DE951A15A4C900942C0D /* View Controller */,
+				0C94DE941A15A45000942C0D /* Model */,
+				0C94DE811A15A44B00942C0D /* Base.lproj */,
+				0C94DE861A15A44B00942C0D /* en.lproj */,
 				99B7AE9E192D50D500C1B49C /* testing swiping */,
 				99B7AEBD192D50D500C1B49C /* testing swipingTests */,
 				99B7AE97192D50D500C1B49C /* Frameworks */,
 				99B7AE96192D50D500C1B49C /* Products */,
+				6FD6B26367EE7F309020D239 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,6 +216,7 @@
 				99B7AE9A192D50D500C1B49C /* CoreGraphics.framework */,
 				99B7AE9C192D50D500C1B49C /* UIKit.framework */,
 				99B7AEB7192D50D500C1B49C /* XCTest.framework */,
+				C724D715AA5768E0EDA4F205 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -174,9 +277,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 99B7AEC7192D50D500C1B49C /* Build configuration list for PBXNativeTarget "testing swiping" */;
 			buildPhases = (
+				9A7BA4F6F319FC2729C6A7DC /* Check Pods Manifest.lock */,
 				99B7AE91192D50D500C1B49C /* Sources */,
 				99B7AE92192D50D500C1B49C /* Frameworks */,
 				99B7AE93192D50D500C1B49C /* Resources */,
+				34ED90D04EB58A2BBF838310 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,6 +351,11 @@
 				99B7AEB1192D50D500C1B49C /* Images.xcassets in Resources */,
 				99B7AEA3192D50D500C1B49C /* InfoPlist.strings in Resources */,
 				99B7AEAC192D50D500C1B49C /* Main.storyboard in Resources */,
+				0C94DE8E1A15A44B00942C0D /* Main.storyboard in Resources */,
+				0C94DE901A15A44B00942C0D /* InfoPlist.strings in Resources */,
+				0C94DEA41A15A55000942C0D /* CalendarViewController.xib in Resources */,
+				0C94DEAF1A15A65500942C0D /* CreateEventViewController.xib in Resources */,
+				0C94DEAA1A15A5CD00942C0D /* CalendarTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,17 +369,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		34ED90D04EB58A2BBF838310 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A7BA4F6F319FC2729C6A7DC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		99B7AE91192D50D500C1B49C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C94DE931A15A44B00942C0D /* Utils.m in Sources */,
 				99FDDE7919A992F200371454 /* DraggableViewBackground.m in Sources */,
+				0C94DEA91A15A5CD00942C0D /* CalendarTableViewCell.m in Sources */,
 				99B7AEAF192D50D500C1B49C /* ViewController.m in Sources */,
 				99B7AED2192E914500C1B49C /* OverlayView.m in Sources */,
 				99B7AEA9192D50D500C1B49C /* AppDelegate.m in Sources */,
+				0C94DE911A15A44B00942C0D /* Event.m in Sources */,
+				0C94DEAE1A15A65500942C0D /* CreateEventViewController.m in Sources */,
 				99B7AECF192D513800C1B49C /* DraggableView.m in Sources */,
 				99B7AEA5192D50D500C1B49C /* main.m in Sources */,
+				0C94DEA31A15A55000942C0D /* CalendarViewController.m in Sources */,
+				0C94DE8F1A15A44B00942C0D /* Client.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +441,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		0C94DE821A15A44B00942C0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C94DE831A15A44B00942C0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C94DE871A15A44B00942C0D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C94DE881A15A44B00942C0D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		99B7AEA1192D50D500C1B49C /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -391,6 +556,7 @@
 		};
 		99B7AEC8192D50D500C1B49C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1C5195DD582021A9C2AEAF1 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -404,6 +570,7 @@
 		};
 		99B7AEC9192D50D500C1B49C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 551CAC79F18F1509BCE840AF /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

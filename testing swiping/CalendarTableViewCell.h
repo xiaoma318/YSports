@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Event.h"
 
 @interface CalendarTableViewCell : UITableViewCell
-
++ (NSString *)identifier;
+- (void)configureCellWithEvent:(Event *)event;
 @end
